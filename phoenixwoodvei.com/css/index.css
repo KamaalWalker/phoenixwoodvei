@@ -7,7 +7,7 @@
   background-attachment: fixed;
 }
 
-/*Place elements in front of parallax (button)*/
+/*Place elements in front of parallax (button) test*/
 #landing .parallax {
   z-index: 1;
 }
