@@ -4,7 +4,7 @@
   
   <link href="css/index.css" rel="stylesheet">
   
-  <!-- Landing -->
+  <!-- Take Off -->
   <div class="section parallax-container" id="landing">
     <div class="parallax center">
       <h5 id="mainText">REBORN</h5>
