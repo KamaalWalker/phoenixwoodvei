@@ -1,0 +1,97 @@
+#landing {
+  height: 100vh;
+  background-image: url('../images/forest3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*Place elements in front of parallax (button)*/
+#landing .parallax {
+  z-index: 1;
+}
+
+#landing2 {
+  height: 80vh;
+  background-image: url('../images/forest2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+#landing3 {
+  height: 80vh;
+  background-image: url('../images/forest-fire1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+#mainText {
+  margin-top: 30vh;
+  color: white;
+  font-weight: bold;
+  font-size: 55px;
+  letter-spacing: 5px;
+}
+
+.subText {
+  color: white;
+  margin-bottom: 1vh;
+}
+
+.quote {
+  margin-top: 30vh;
+  color: white;
+  font-size: 3vh;
+}
+
+.infoblock {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  margin-top: 20vh;
+  padding: 15px;
+  
+  border-radius: 15px;
+}
+
+.infoblock #number{
+  background-color: green;
+  width: 25%;
+  font-size: 25px;
+  margin: 0 auto 0 auto;
+  margin-top: 20vh;
+  padding: 15px;
+  
+  border-radius: 15px;
+}
+
+
+
+.btn {
+  background-color: inherit;
+  border: 2px solid #eee;
+  
+  margin: 10px;
+  font-size: 20px;
+  
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: #6aa74d;
+}
+
+.image-block img {
+  width: 120px;
+}
+
+.image-block-large img {
+  width: 200px;
+}

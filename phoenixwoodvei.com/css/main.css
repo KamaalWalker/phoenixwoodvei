@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.side-nav {
+  width: 30vh;
+}
+.navbar-fixed nav {
+  background-color: #2d4e25;
+}
+.side-nav .valign-wrapper {
+  margin-bottom: 1vh;
+  padding: 2vh;
+  border-bottom: 1px solid #eee;
+}
+.side-nav .logo {
+  width: 50px;
+  margin: 5px;
+  margin: 0 auto;
+}
+
+.page-footer {
+  background-color: #2d4e25;
+}
+
+.social {
+  margin-top: 30vh;
+}
+
+.social .btn-floating {
+  height: 40px;
+  width: 40px;
+  font-size: 1px;
+  margin: 0 5px;
+  
+  background-color: #6aa74d;
+}
+
+#facebook {
+  background-image: url('../images/facebook.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#instagram {
+  background-image: url('../images/instagram.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#twitter {
+  background-image: url('../images/twitter.png');
+  background-position: center;
+  background-size: cover;
+}

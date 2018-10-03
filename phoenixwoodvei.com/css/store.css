@@ -1,0 +1,73 @@
+.temp1 {
+  border: 2px solid red;
+  height: 50vh;
+}
+
+.temp2 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.temp3 {
+  width: 95%;
+  margin: 5px auto;
+  border: 2px solid red;
+  height: 30vh;
+  
+}
+
+.carousel {
+  height: 20vh;
+  width: 75%;
+}
+.carousel img {
+  height: 20vh;
+}
+.row .carousel .carousel-item {
+  height: 20vh;
+  margin: 0px;
+}
+
+.row .category {
+  height: 20vh;
+}
+
+.category {
+  transition: background-color 0.25s ease;
+  transition: font-size 0.3s ease;
+  background-color: #6aa74d;
+}
+
+.category:hover {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+#search {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 25px;
+  border: 3px solid #eee;
+}
+#searchfield {
+  margin: 0;
+  border: none;
+  font-size: 25px;
+  width: 90%;
+  padding-left: 15px;
+}
+#searchicon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+.input-field input[id=searchfield]:focus {
+  border-bottom: none;
+  box-shadow: none;
+}
