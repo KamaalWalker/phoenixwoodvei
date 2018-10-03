@@ -63,16 +63,17 @@
 
 .infoblock #number{
   background-color: green;
-  width: 25%;
   font-size: 25px;
-  margin: 0 auto 0 auto;
   margin-top: 20vh;
   padding: 15px;
   
   border-radius: 15px;
 }
 
-
+@media only screen and (min-width: 768px) {
+/* For Mobile */
+  .infoblock #number { font-size: 10px; }
+}
 
 .btn {
   background-color: inherit;
