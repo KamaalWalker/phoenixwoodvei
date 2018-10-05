@@ -4,56 +4,126 @@
 
 <link href="css/store.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-<div class="section temp1 center" id="top">
-  <h5>Gallery</h5>
-</div>
-
-<div class="section search">
-  <div class="input-field browser-default" id="search">
-    <input type="text" id="searchfield" placeholder="Search Items, Categories, Price..." onkeyup="">
-    <i class="material-icons right" id="searchicon">search</i>
-  </div>
-</div>
-
-<div class="section temp2">
-  
-  <div class="row">
-    <div class="col s2 category center" id="furniture">
-      Furniture
+<div class="section container">
+  <div class="row valign-wrapper">
+    <div class="col s6 red">
+      <div class="hover-hide center">
+        <i class="material-icons small">unfold_more</i>
+        <br>See More
+      </div>
     </div>
-    <div class="carousel">
-      <a class="carousel-item" href="#one!"><img src="images/furniture_1.png"></a>
-      <a class="carousel-item" href="#two!"><img src="images/furniture_2.png"></a>
-      <a class="carousel-item" href="#three!"><img src="images/furniture_3.png"></a>
+    <div class="col s3 ">
+      <div class="hover-hide center">
+        <p>Product</p>
+        <p class="green-text">$55</p>
+      </div>
+    </div>
+    <div class="col s3 ">
+      <div class="hover-hide center">
+        <p>Product</p>
+        <p class="green-text">$55</p>
+      </div>
     </div>
   </div>
   
-  <div class="row">
-    <div class="col s2 category center" id="furniture">
-      Accessories
+  <div class="row valign-wrapper">
+    <div class="col s3 ">
+      <div class="hover-hide center">
+        <p>Product</p>
+        <p class="green-text">$55</p>
+      </div>
     </div>
-    <div class="carousel">
-      <a class="carousel-item" href="#one!"><img src="images/accessory_1.png"></a>
-      <a class="carousel-item" href="#two!"><img src="images/accessory_2.png"></a>
-      <a class="carousel-item" href="#three!"><img src="images/accessory_3.png"></a>
+    <div class="col s9 ">
+      <div class="center">
+        <i class="material-icons small">info</i>
+        <br>Our Products
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section container">
+  <div class="row valign-wrapper">
+    <div class="col s6 ">
+      <div class="center">
+        <i class="material-icons small">info</i>
+        <br>Our Products
+      </div>
+    </div>
+    <div class="col s6 red">
+      <div class="hover-hide center">
+        <i class="material-icons small">unfold_more</i>
+        <br>See More
+      </div>
+    </div>
+  </div>
+  <div class="row valign-wrapper">
+    <div class="col s3 ">
+      <div class="hover-hide center">
+        <p>Product</p>
+        <p class="green-text">$55</p>
+      </div>
+    </div>
+    <div class="col s3 ">
+      <div class="hover-hide center">
+        <p>Product</p>
+        <p class="green-text">$55</p>
+      </div>
+    </div>
+    <div class="col s3 ">
+      <div class="hover-hide center">
+        <p>Product</p>
+        <p class="green-text">$55</p>
+      </div>
+    </div>
+    <div class="col s3 amber lighten-2">
+      <div class="hover-hide center">
+        <p>Popular Product</p>
+        <p class="green-text">$25</p>
+        <i class="material-icons small">whatshot</i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section container">
+  <div class="row valign-wrapper">
+    <div class="col s6 red">
+      <div class="hover-hide center">
+        <i class="material-icons small">unfold_more</i>
+        <br>See More
+      </div>
+    </div>
+    <div class="col s3 amber lighten-2">
+      <div class="hover-hide center">
+        <p>Popular Product</p>
+        <p class="green-text">$105</p>
+        <i class="material-icons small">whatshot</i>
+      </div>
+    </div>
+    <div class="col s3 ">
+      <div class="hover-hide center">
+        <p>Product</p>
+        <p class="green-text">$55</p>
+      </div>
     </div>
   </div>
   
+  <div class="row valign-wrapper">
+    <div class="col s9 ">
+      <div class="center">
+        <i class="material-icons small">info</i>
+        <br>Our Products
+      </div>
+    </div>
+    <div class="col s3 ">
+      <div class="hover-hide center">
+        <p>Product</p>
+        <p class="green-text">$55</p>
+      </div>
+    </div>
+  </div>
 </div>
-
-<!--<div class="section temp3">
-  <h5>Featured ? On Sale? Staff picks?</h5>
-</div>
-
-<div class="section temp3">
-  <h5>Statistics?</h5>
-</div>
-
-<div class="section temp3">
-  <h5>Live pictures with products</h5>
-</div>
-
-<a class="center" href="#top">Top</a>-->
 
 <script src="js/store.js"></script>
 
