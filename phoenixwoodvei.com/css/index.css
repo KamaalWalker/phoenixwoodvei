@@ -1,10 +1,11 @@
 #landing {
   height: 100vh;
-  background-image: url('../images/forest3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/forest3.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: relative;
 }
 
 /*Place elements in front of parallax (button) test*/
@@ -53,7 +54,7 @@
 
 .infoblock {
   background-color: white;
-  width: 100%;
+  width: 50%;
   margin: 0 auto 0 auto;
   margin-top: 20vh;
   padding: 15px;
@@ -61,13 +62,13 @@
   border-radius: 15px;
 }
 
-.infoblock #number{
-  background-color: green;
-  font-size: 25px;
-  margin-top: 20vh;
+.infoblock #number {
+  font-size: 45px;
+  color: green;
+  border-bottom: 1px solid #eee;
   padding: 15px;
-  
-  border-radius: 15px;
+  margin: 15px;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {
