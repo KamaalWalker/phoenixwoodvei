@@ -8,7 +8,7 @@
   <div class="section parallax-container" id="landing">
     <div class="parallax center">
       <h5 id="mainText">REBORN</h5>
-      <h5 class="subText">Explore. Reclaim. Create.</h5>
+      <h5 class="subText">Explore. Preserve. Reclaim.</h5>
       <a href="/store.php" class="btn">STORE</a>
       <div class="row social">
         <a class="btn-floating" id="facebook"></a>
