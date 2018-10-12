@@ -8,7 +8,18 @@
     <iframe width="900" height="560" src="https://www.youtube.com/embed/PdRcFpGZuVY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-<div class= "section container" id="envision">
+<div class="container">
+    <div class="section">
+        <div class="row">
+            <div class="col s5 right"></div>
+        </div>
+        <div class="row">
+            <div class="col s5 left"></div>
+        </div>
+    </div> 
+</div>
+
+<div class= "section" id="envision">
     <div class = "row">
         <div class = "col s12">
             <h1> Who We Are</h1>
