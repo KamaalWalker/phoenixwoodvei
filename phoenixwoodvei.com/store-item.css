@@ -1,0 +1,151 @@
+@media only screen and (max-width: 768px) {
+/* For Mobile */
+  #main-info { width: 100%; }
+  #mid-info { width: 100%; }
+  #right-info { width: 100%; }
+  #main-image { width: 70%; }
+  #images .btn-floating { width: 15px; height:15px; margin-bottom: 2px; }
+}
+
+@media only screen and (max-width: 1024px) {
+  #main-info { width: 100%; font-size: 20px; }
+  #main-image { width: 70%; }
+  #images .btn-floating { width: 35px; height:35px; margin-bottom: 10px; }
+  .mid-container { font-size: 20px; }
+}
+
+.top-container {
+  max-height: 50vh;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.row #main-image, .row #main-info, .row #images {
+  margin: 2px;
+}
+
+#main-image {
+  height: 50vh;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+#main-image img {
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+#images {
+  height: inherit;
+  width: 10vh;
+}
+
+#images .pic {
+  height: 20%;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+#selected {
+  border: 2px solid black;
+}
+
+.pic img {
+  width: 75%;
+}
+
+#images .btn-floating {
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+}
+
+#main-info {
+  height: inherit;
+}
+
+#main-info .row {
+  margin-bottom: 15px;
+}
+
+#main-info #desc {
+  padding: 10px;
+}
+
+#main-info .input-field {
+  margin-top: 10px;
+}
+
+.input-field select {
+  margin-top: 2px;
+  border-radius: 10px;
+}
+
+#main-price .row:nth-child(odd) {
+  background-color: #eee;
+}
+
+#main-price .row {
+  margin: 0px;
+  border: 1px solid #eee;
+}
+
+#main-info .btn {
+  width: 100%;
+  background-color: #015249;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.mid-container {
+  min-height: 25vh;
+}
+
+#mid-info {
+  height: inherit;
+}
+
+#mid-info .row {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+#mid-info .row:nth-child(odd) {
+  background-color: #eee;
+}
+
+#mid-info .s8 {
+  border-left: 1px solid black;
+}
+
+.mid-container .col {
+  height: inherit;
+  margin-right: 10px;
+}
+
+h5 {
+  border-bottom: 1px solid #aaa;
+}
+
+#right-info .row {
+  border: 1px solid #eee;
+  padding: 0px 10px 10px 10px;
+}
+
+#right-info p {
+  margin: 0px;
+  font-size: 10px;
+}
+
+#right-info .btn-flat {
+  width: 100%;
+}
+
+#share .btn-floating {
+  width: 25px;
+  height: 25px;
+}
